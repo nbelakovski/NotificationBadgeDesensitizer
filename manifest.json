@@ -7,6 +7,10 @@
         {
             "css": ["linkedIn.css"],
             "matches": ["https://www.linkedin.com/*"]
+        },
+        {
+            "css": ["facebook.css"],
+            "matches": ["https://www.facebook.com/*"]
         }
     ]
 }
