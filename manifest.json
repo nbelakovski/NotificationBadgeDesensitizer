@@ -1,0 +1,12 @@
+{
+    "name": "Notification Badge Desensitizer",
+    "description": "Changes the color of the noticiation badge on many popular websites from red to gray",
+    "version": "0.8",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "css": ["badgeColor.css"],
+            "matches": ["https://www.linkedin.com/*"]
+        }
+    ]
+}
