@@ -1,7 +1,7 @@
 {
     "name": "Notification Badge Desensitizer",
     "description": "Changes the color of the notification badge on many popular websites from red to gray",
-    "version": "0.8",
+    "version": "0.9",
     "manifest_version": 3,
     "content_scripts": [
         {
@@ -19,6 +19,10 @@
         {
             "css": ["netflix.css"],
             "matches": ["https://www.netflix.com/*"]
+        },
+        {
+            "css": ["goodreads.css"],
+            "matches": ["https://www.goodreads.com/*"]
         }
     ]
 }
